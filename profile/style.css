@@ -47,9 +47,10 @@ a:hover{
   font-family: 'Nunito';
 }
 
-div {
-  padding: 25px 20px;
-}
+/*div {
+  padding: 15px 20px;
+  margin-top: 10px;
+}*/
 
 li {
   margin: 0 20px auto;
@@ -75,8 +76,8 @@ li {
   /*background: rgba(244,244,242,0.2);*/
   border:1px solid rgba(244,244,242,0.2);
   border-radius:5px;
-  margin :20px 0 auto;
-
+  margin :5px 20px;
+  padding: 10px 20px;
 }
 
 .card-top h2{
@@ -115,15 +116,12 @@ li {
   background-position: center;
 }
 
-.card-middle button a :hover {
-  color white;
-}
-
 .card-bottom {
    /*background: rgba(244,244,242,0.2);*/
   border:1px solid rgba(244,244,242,0.2);
   border-radius:5px;
-  margin :20px 0 auto;
+  margin :10px 20px;
+  padding: 10px 20px;
 }
 
 
