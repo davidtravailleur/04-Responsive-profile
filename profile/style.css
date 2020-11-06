@@ -75,10 +75,10 @@ li {
 
 .card-top {
   /*background: rgba(244,244,242,0.2);*/
-  border:1px solid rgba(244,244,242,0.2);
   border-radius:5px;
   margin :5px 20px;
   padding: 10px 20px;
+  position: relative;
 }
 
 .card-top h2{
@@ -91,9 +91,26 @@ li {
   color: white;
 }
 
-.card-top button {
+.button {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 30%;
+  border:1px solid rgba(244,244,242,0.2);
+  align-items: center;
+  display: block;
+  margin: auto;
+  background-image: url(images/bouton_hover_picture.jpg);
+  background-position: center;
+  position: absolute;
+  right: 40px;
+}
+
+.button a {
+  color: black;
+}
+
+.button:hover {
+  padding: 20px;
+  border-radius: 30%;
   border:1px solid rgba(244,244,242,0.2);
   align-items: center;
   display: block;
@@ -102,32 +119,23 @@ li {
   background-position: center;
 }
 
-.card-top button a {
-  color: black;
+.button:hover a {
+  color: white;
 }
-
-.card-top button:hover {
-  padding: 20px;
-  border-radius: 10px;
-  border:1px solid rgba(244,244,242,0.2);
-  align-items: center;
-  display: block;
-  margin: auto;
-  background-image: url(images/bouton_hover_picture.jpg);
-  background-position: center;
-}
-
 .card-bottom {
    /*background: rgba(244,244,242,0.2);*/
   border:1px solid rgba(244,244,242,0.2);
   border-radius:5px;
-  margin :10px 20px;
+  margin :80px auto 10px  ;
   padding: 10px 20px;
+
 }
 
 
-.img-circle {
+.img-circle img{
   border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .text-align {
